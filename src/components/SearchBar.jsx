@@ -12,7 +12,7 @@ const SearchBar = ({setSearchInput,handleButtonClick,setType,type}) => {
             <input 
               className="text-base text-gray-800 flex-grow outline-none px-2 py-3 font-medium" 
               type="text" 
-              placeholder="Search your domain name"
+              placeholder="Enter Your Registration Number or FullName ?"
               onChange={(e) => setSearchInput(e.target.value)}
             />
             <div className="flex items-center px-2 space-x-4 mt-4 sm:mt-0 sm:ml-4">

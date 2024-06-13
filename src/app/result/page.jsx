@@ -6,7 +6,7 @@ import result6 from '../../../public/Jsons/result6.json';
 import SearchBar from '@/components/SearchBar';
 import NotFound from '@/components/Notfound';
 import Skeleton from '@/components/Skeleton';
-const page = () => {
+const Page = () => {
    const [result, setResult] = useState([]);
    const [result2, setResult2] = useState([]);
    const [searchInput,setSearchInput] = useState('');
@@ -64,4 +64,4 @@ console.log(type)
   )
 }
 
-export default page
+export default Page

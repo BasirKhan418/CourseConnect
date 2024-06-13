@@ -1,0 +1,993 @@
+[
+    {
+      "Sl_No": 1,
+      "Course_Type": "Skill",
+      "Code": "CUTM3029",
+      "Course_Title": "Apparel Production & Marketing",
+      "Credits": 4,
+      "Theory_Practice_Project": "0+3+1",
+      "NSQF_Level": 4
+    },
+    {
+      "Sl_No": 2,
+      "Course_Type": "Skill",
+      "Code": "CUTM3030",
+      "Course_Title": "Line Stitching Supervising",
+      "Credits": 4,
+      "Theory_Practice_Project": "0+3+1",
+      "NSQF_Level": 5
+    },
+    {
+      "Sl_No": 3,
+      "Course_Type": "Skill",
+      "Code": "CUTM3031",
+      "Course_Title": "Apparel Production",
+      "Credits": 4,
+      "Theory_Practice_Project": "0+3+1",
+      "NSQF_Level": 5
+    },
+    {
+      "Sl_No": 4,
+      "Course_Type": "Skill",
+      "Code": "CUTM3032",
+      "Course_Title": "Light Motor Vehicle Driving",
+      "Credits": 4,
+      "Theory_Practice_Project": "0+3+1",
+      "NSQF_Level": 3
+    },
+    {
+      "Sl_No": 5,
+      "Course_Type": "Skill",
+      "Code": "CUTM3033",
+      "Course_Title": "Fork Lift Operation",
+      "Credits": 4,
+      "Theory_Practice_Project": "0+3+1",
+      "NSQF_Level": 4
+    },
+    {
+      "Sl_No": 6,
+      "Course_Type": "Skill",
+      "Code": "CUTM3034",
+      "Course_Title": "Heavy Vehicle Technology",
+      "Credits": 4,
+      "Theory_Practice_Project": "0+3+1",
+      "NSQF_Level": 4
+    },
+    {
+      "Sl_No": 7,
+      "Course_Type": "Skill",
+      "Code": "CUTM3035",
+      "Course_Title": "Two Wheeler Service Technology",
+      "Credits": 4,
+      "Theory_Practice_Project": "0+3+1",
+      "NSQF_Level": 4
+    },
+    {
+      "Sl_No": 8,
+      "Course_Type": "Skill",
+      "Code": "CUTM3036",
+      "Course_Title": "Four Wheeler Service Technology",
+      "Credits": 4,
+      "Theory_Practice_Project": "0+3+1",
+      "NSQF_Level": 4
+    },
+    {
+      "Sl_No": 9,
+      "Course_Type": "Skill",
+      "Code": "CUTM3037",
+      "Course_Title": "E-Vehicle Assembly and Service Technology",
+      "Credits": 4,
+      "Theory_Practice_Project": "0+3+1",
+      "NSQF_Level": 5
+    },
+    {
+      "Sl_No": 10,
+      "Course_Type": "Skill",
+      "Code": "CUTM3038",
+      "Course_Title": "Robotics",
+      "Credits": 4,
+      "Theory_Practice_Project": "0+3+1",
+      "NSQF_Level": 4
+    },
+    {
+        "Sl_No": 11,
+        "Course_Type": "Skill",
+        "Code": "CUTM3039",
+        "Course_Title": "CNC Machinist",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 5
+      },
+      {
+        "Sl_No": 12,
+        "Course_Type": "Skill",
+        "Code": "CUTM3040",
+        "Course_Title": "CNC Programming (CAM)",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 5
+      },
+      {
+        "Sl_No": 13,
+        "Course_Type": "Skill",
+        "Code": "CUTM3041",
+        "Course_Title": "Design Supervising Wooden and Modular Furniture",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "4*"
+      },
+      {
+        "Sl_No": 14,
+        "Course_Type": "Skill",
+        "Code": "CUTM3042",
+        "Course_Title": "Introduction to Composite Manufacturing",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "4*"
+      },
+      {
+        "Sl_No": 15,
+        "Course_Type": "Skill",
+        "Code": "CUTM3043",
+        "Course_Title": "Computer Aided Drafting",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 4
+      },
+      {
+        "Sl_No": 16,
+        "Course_Type": "Skill",
+        "Code": "CUTM3044",
+        "Course_Title": "Pottery",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "3*"
+      },
+      {
+        "Sl_No": 17,
+        "Course_Type": "Skill",
+        "Code": "CUTM3045",
+        "Course_Title": "Precast Concrete Manufacturing",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "4*"
+      },
+      {
+        "Sl_No": 18,
+        "Course_Type": "Skill",
+        "Code": "CUTM3046",
+        "Course_Title": "Fabrication",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "3*"
+      },
+      {
+        "Sl_No": 19,
+        "Course_Type": "Skill",
+        "Code": "CUTM3047",
+        "Course_Title": "Hi-Tech Surveying",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "4*"
+      },
+      {
+        "Sl_No": 20,
+        "Course_Type": "Skill",
+        "Code": "CUTM3048",
+        "Course_Title": "Internet of Things",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 5
+      },
+      {
+        "Sl_No": 21,
+        "Course_Type": "Skill",
+        "Code": "CUTM3049",
+        "Course_Title": "Mechatronics System Design",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 5
+      },
+      {
+        "Sl_No": 22,
+        "Course_Type": "Skill",
+        "Code": "CUTM3050",
+        "Course_Title": "Plant/Drug Research using Biovia",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "4*"
+      },
+      {
+        "Sl_No": 23,
+        "Course_Type": "Skill",
+        "Code": "CUTM3051",
+        "Course_Title": "Introduction to Nanotechnology",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "4*"
+      },
+      {
+        "Sl_No": 24,
+        "Course_Type": "Skill",
+        "Code": "CUTM3052",
+        "Course_Title": "Drone Piloting",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "4*"
+      },
+      {
+        "Sl_No": 25,
+        "Course_Type": "Skill",
+        "Code": "CUTM3053",
+        "Course_Title": "Camera Operation",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 4
+      },
+      {
+        "Sl_No": 26,
+        "Course_Type": "Skill",
+        "Code": "CUTM3054",
+        "Course_Title": "Editor",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "3*"
+      },
+      {
+        "Sl_No": 27,
+        "Course_Type": "Skill",
+        "Code": "CUTM3055",
+        "Course_Title": "Desktop Publishing",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 3
+      },
+      {
+        "Sl_No": 28,
+        "Course_Type": "Skill",
+        "Code": "CUTM3056",
+        "Course_Title": "Introduction to Blender and Unity tools",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "3*"
+      },
+      {
+        "Sl_No": 29,
+        "Course_Type": "Skill",
+        "Code": "CUTM3057",
+        "Course_Title": "Refraction Technology",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "4*"
+      },
+      {
+        "Sl_No": 30,
+        "Course_Type": "Skill",
+        "Code": "CUTM3058",
+        "Course_Title": "Emergency Medical Technology",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 4
+      },
+      {
+        "Sl_No": 31,
+        "Course_Type": "Skill",
+        "Code": "CUTM3059",
+        "Course_Title": "Medical Lab Technology",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 4
+      },
+      {
+        "Sl_No": 32,
+        "Course_Type": "Skill",
+        "Code": "CUTM3060",
+        "Course_Title": "Operating Theatre Technology",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 4
+      },
+      {
+        "Sl_No": 33,
+        "Course_Type": "Skill",
+        "Code": "CUTM3061",
+        "Course_Title": "Radiology Technology",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 4
+      },
+      {
+        "Sl_No": 34,
+        "Course_Type": "Skill",
+        "Code": "CUTM3062",
+        "Course_Title": "Phlebotomy Technology",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "3*"
+      },
+      {
+        "Sl_No": 35,
+        "Course_Type": "Skill",
+        "Code": "CUTM3063",
+        "Course_Title": "First Aid Service",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "3*"
+      },
+      {
+        "Sl_No": 36,
+        "Course_Type": "Skill",
+        "Code": "CUTM3064",
+        "Course_Title": "General Duty Assistance Service",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 4
+      },
+      {
+        "Sl_No": 37,
+        "Course_Type": "Skill",
+        "Code": "CUTM3065",
+        "Course_Title": "X-ray Technology",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 3
+      },
+      {
+        "Sl_No": 38,
+        "Course_Type": "Skill",
+        "Code": "CUTM3066",
+        "Course_Title": "Wantrepreneur to Entrepreneur",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "3*"
+      },
+      {
+        "Sl_No": 39,
+        "Course_Type": "Skill",
+        "Code": "CUTM3067",
+        "Course_Title": "Retail Sales",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 4
+      },
+      {
+        "Sl_No": 40,
+        "Course_Type": "Skill",
+        "Code": "CUTM3068",
+        "Course_Title": "Basketball",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "3*"
+      },
+      {
+        "Sl_No": 41,
+        "Course_Type": "Skill",
+        "Code": "CUTM3069",
+        "Course_Title": "Badminton",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "3*"
+      },
+      {
+        "Sl_No": 42,
+        "Course_Type": "Skill",
+        "Code": "CUTM3070",
+        "Course_Title": "Football",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "3*"
+      },
+      {
+        "Sl_No": 43,
+        "Course_Type": "Skill",
+        "Code": "CUTM3071",
+        "Course_Title": "Volleyball",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "3*"
+      },
+      {
+        "Sl_No": 44,
+        "Course_Type": "Skill",
+        "Code": "CUTM3072",
+        "Course_Title": "Cricket",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "3*"
+      },
+      {
+        "Sl_No": 45,
+        "Course_Type": "Skill",
+        "Code": "CUTM3073",
+        "Course_Title": "Hockey",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "3*"
+      },
+      {
+        "Sl_No": 46,
+        "Course_Type": "Skill",
+        "Code": "CUTM3074",
+        "Course_Title": "Handball",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "3*"
+      },
+      {
+        "Sl_No": 47,
+        "Course_Type": "Skill",
+        "Code": "CUTM3075",
+        "Course_Title": "Kabaddi",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "3*"
+      },
+      {
+        "Sl_No": 48,
+        "Course_Type": "Skill",
+        "Code": "CUTM3076",
+        "Course_Title": "Table Tennis",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "3*"
+      },
+      {
+        "Sl_No": 49,
+        "Course_Type": "Skill",
+        "Code": "CUTM3077",
+        "Course_Title": "Athletics",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "3*"
+      },
+      {
+        "Sl_No": 50,
+        "Course_Type": "Skill",
+        "Code": "CUTM3078",
+        "Course_Title": "Swimming",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "3*"
+      },
+      {
+        "Sl_No": 51,
+        "Course_Type": "Skill",
+        "Code": "CUTM3079",
+        "Course_Title": "Cycling",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "3*"
+      },
+      {
+        "Sl_No": 52,
+        "Course_Type": "Skill",
+        "Code": "CUTM3080",
+        "Course_Title": "Yoga",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "3*"
+      },
+      {
+        "Sl_No": 53,
+        "Course_Type": "Skill",
+        "Code": "CUTM3081",
+        "Course_Title": "Gym & Aerobics",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "3*"
+      },
+      {
+        "Sl_No": 54,
+        "Course_Type": "Skill",
+        "Code": "CUTM3082",
+        "Course_Title": "Mindfulness & Meditation",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "3*"
+      },
+      {
+        "Sl_No": 55,
+        "Course_Type": "Skill",
+        "Code": "CUTM3083",
+        "Course_Title": "Kitchen Gardening",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "3*"
+      },
+      {
+        "Sl_No": 56,
+        "Course_Type": "Skill",
+        "Code": "CUTM3084",
+        "Course_Title": "Vermicomposting",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "3*"
+      },
+      {
+        "Sl_No": 57,
+        "Course_Type": "Skill",
+        "Code": "CUTM3085",
+        "Course_Title": "Dairy Farming",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 4
+      },
+      {
+        "Sl_No": 58,
+        "Course_Type": "Skill",
+        "Code": "CUTM3086",
+        "Course_Title": "Goat Rearing",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "3*"
+      },
+      {
+        "Sl_No": 59,
+        "Course_Type": "Skill",
+        "Code": "CUTM3087",
+        "Course_Title": "Poultry Farming",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 4
+      },
+      {
+        "Sl_No": 60,
+        "Course_Type": "Skill",
+        "Code": "CUTM3088",
+        "Course_Title": "Fish Farming",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 4
+      },
+      {
+        "Sl_No": 61,
+        "Course_Type": "Skill",
+        "Code": "CUTM3089",
+        "Course_Title": "Sericulture",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "3*"
+      },
+      {
+        "Sl_No": 62,
+        "Course_Type": "Skill",
+        "Code": "CUTM3090",
+        "Course_Title": "Honey Bee Farming",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 4
+      },
+      {
+        "Sl_No": 63,
+        "Course_Type": "Skill",
+        "Code": "CUTM3091",
+        "Course_Title": "Landscaping & Gardening",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 4
+      },
+      {
+        "Sl_No": 64,
+        "Course_Type": "Skill",
+        "Code": "CUTM3092",
+        "Course_Title": "Mushroom Cultivation",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "3*"
+      },
+      {
+        "Sl_No": 65,
+        "Course_Type": "Skill",
+        "Code": "CUTM3093",
+        "Course_Title": "Grafting",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "3*"
+      },
+      {
+        "Sl_No": 66,
+        "Course_Type": "Skill",
+        "Code": "CUTM3094",
+        "Course_Title": "House Wiring",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 4
+      },
+      {
+        "Sl_No": 67,
+        "Course_Type": "Skill",
+        "Code": "CUTM3095",
+        "Course_Title": "Auto Electricals",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 4
+      },
+      {
+        "Sl_No": 68,
+        "Course_Type": "Skill",
+        "Code": "CUTM3096",
+        "Course_Title": "Water Pump Installation & Repair",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "3*"
+      },
+      {
+        "Sl_No": 69,
+        "Course_Type": "Skill",
+        "Code": "CUTM3097",
+        "Course_Title": "Electrical Gadget Repair",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 3
+      },
+      {
+        "Sl_No": 70,
+        "Course_Type": "Skill",
+        "Code": "CUTM3098",
+        "Course_Title": "Battery Repair",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "3*"
+      },
+      {
+        "Sl_No": 71,
+        "Course_Type": "Skill",
+        "Code": "CUTM3099",
+        "Course_Title": "Auto Mechanics",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 4
+      },
+      {
+        "Sl_No": 72,
+        "Course_Type": "Skill",
+        "Code": "CUTM3100",
+        "Course_Title": "Basic 3D Animation",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 4
+      },
+      {
+        "Sl_No": 73,
+        "Course_Type": "Skill",
+        "Code": "CUTM3101",
+        "Course_Title": "Cyber Security",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 4
+      },
+      {
+        "Sl_No": 74,
+        "Course_Type": "Skill",
+        "Code": "CUTM3102",
+        "Course_Title": "Java Programming",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 4
+      },
+      {
+        "Sl_No": 75,
+        "Course_Type": "Skill",
+        "Code": "CUTM3103",
+        "Course_Title": "Basic Electronics",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 3
+      },
+      {
+        "Sl_No": 76,
+        "Course_Type": "Skill",
+        "Code": "CUTM3104",
+        "Course_Title": "PCB Design",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 4
+      },
+      {
+        "Sl_No": 77,
+        "Course_Type": "Skill",
+        "Code": "CUTM3105",
+        "Course_Title": "Wireless Network Installation",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "3*"
+      },
+      {
+        "Sl_No": 78,
+        "Course_Type": "Skill",
+        "Code": "CUTM3106",
+        "Course_Title": "Office Application",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "3*"
+      },
+      {
+        "Sl_No": 79,
+        "Course_Type": "Skill",
+        "Code": "CUTM3107",
+        "Course_Title": "Multimedia & Internet Technology",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": "3*"
+      },
+      {
+        "Sl_No": 80,
+        "Course_Type": "Skill",
+        "Code": "CUTM3108",
+        "Course_Title": "Digital Marketing",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 4
+      },
+      {
+        "Sl_No": 81,
+        "Course_Type": "Skill",
+        "Code": "CUTM3109",
+        "Course_Title": "Social Media",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 4
+      },
+      {
+        "Sl_No": 82,
+        "Course_Type": "Skill",
+        "Code": "CUTM3110",
+        "Course_Title": "Marketing Analytics",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 4
+      },
+      {
+        "Sl_No": 83,
+        "Course_Type": "Skill",
+        "Code": "CUTM3111",
+        "Course_Title": "Content Management",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 4
+      },
+      {
+        "Sl_No": 84,
+        "Course_Type": "Skill",
+        "Code": "CUTM3112",
+        "Course_Title": "Marketing Strategy",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 4
+      },
+      {
+        "Sl_No": 85,
+        "Course_Type": "Skill",
+        "Code": "CUTM3113",
+        "Course_Title": "Office Management",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 4
+      },
+      {
+        "Sl_No": 86,
+        "Course_Type": "Skill",
+        "Code": "CUTM3114",
+        "Course_Title": "Mobile App Development",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 4
+      },
+      {
+        "Sl_No": 87,
+        "Course_Type": "Skill",
+        "Code": "CUTM3115",
+        "Course_Title": "Web Application Development",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 4
+      },
+      {
+        "Sl_No": 88,
+        "Course_Type": "Skill",
+        "Code": "CUTM3116",
+        "Course_Title": "Non-Profit Management",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 4
+      },
+      {
+        "Sl_No": 89,
+        "Course_Type": "Skill",
+        "Code": "CUTM3117",
+        "Course_Title": "Public Relations",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 4
+      },
+      {
+        "Sl_No": 90,
+        "Course_Type": "Skill",
+        "Code": "CUTM3118",
+        "Course_Title": "Journalism",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 4
+      },
+      {
+        "Sl_No": 91,
+        "Course_Type": "Skill",
+        "Code": "CUTM3119",
+        "Course_Title": "Advertising",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 4
+      },
+      {
+        "Sl_No": 92,
+        "Course_Type": "Skill",
+        "Code": "CUTM3120",
+        "Course_Title": "Urban Gardening",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 3
+      },
+      {
+        "Sl_No": 93,
+        "Course_Type": "Skill",
+        "Code": "CUTM3121",
+        "Course_Title": "Ecotourism",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 3
+      },
+      {
+        "Sl_No": 94,
+        "Course_Type": "Skill",
+        "Code": "CUTM3122",
+        "Course_Title": "Tour Operation",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 3
+      },
+      {
+        "Sl_No": 95,
+        "Course_Type": "Skill",
+        "Code": "CUTM3123",
+        "Course_Title": "Event Management",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 3
+      },
+      {
+        "Sl_No": 96,
+        "Course_Type": "Skill",
+        "Code": "CUTM3124",
+        "Course_Title": "Sustainable Development",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 3
+      },
+      {
+        "Sl_No": 97,
+        "Course_Type": "Skill",
+        "Code": "CUTM3125",
+        "Course_Title": "Herbal Technology",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 3
+      },
+      {
+        "Sl_No": 98,
+        "Course_Type": "Skill",
+        "Code": "CUTM3126",
+        "Course_Title": "Primary Health Care",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 4
+      },
+      {
+        "Sl_No": 99,
+        "Course_Type": "Skill",
+        "Code": "CUTM3127",
+        "Course_Title": "House Keeping",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 3
+      },
+      {
+        "Sl_No": 100,
+        "Course_Type": "Skill",
+        "Code": "CUTM3128",
+        "Course_Title": "Food Preservation",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 3
+      },
+      {
+        "Sl_No": 100,
+        "Course_Type": "Skill",
+        "Code": "CUTM3128",
+        "Course_Title": "Food Preservation",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 3
+      },
+      {
+        "Sl_No": 101,
+        "Course_Type": "Skill",
+        "Code": "CUTM3129",
+        "Course_Title": "Bakery",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 3
+      },
+      {
+        "Sl_No": 102,
+        "Course_Type": "Skill",
+        "Code": "CUTM3130",
+        "Course_Title": "Food Nutrition",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 4
+      },
+      {
+        "Sl_No": 103,
+        "Course_Type": "Skill",
+        "Code": "CUTM3131",
+        "Course_Title": "Laundry & Ironing",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 3
+      },
+      {
+        "Sl_No": 104,
+        "Course_Type": "Skill",
+        "Code": "CUTM3132",
+        "Course_Title": "Pottery",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 3
+      },
+      {
+        "Sl_No": 105,
+        "Course_Type": "Skill",
+        "Code": "CUTM3133",
+        "Course_Title": "Soft Toy Making",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 3
+      },
+      {
+        "Sl_No": 106,
+        "Course_Type": "Skill",
+        "Code": "CUTM3134",
+        "Course_Title": "Papier Mache",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 3
+      },
+      {
+        "Sl_No": 107,
+        "Course_Type": "Skill",
+        "Code": "CUTM3135",
+        "Course_Title": "Recycling & Upcycling",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 3
+      },
+      {
+        "Sl_No": 108,
+        "Course_Type": "Skill",
+        "Code": "CUTM3136",
+        "Course_Title": "Visual Arts",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 3
+      },
+      {
+        "Sl_No": 109,
+        "Course_Type": "Skill",
+        "Code": "CUTM3137",
+        "Course_Title": "Performing Arts",
+        "Credits": 4,
+        "Theory_Practice_Project": "0+3+1",
+        "NSQF_Level": 3
+      }
+  ]
+  

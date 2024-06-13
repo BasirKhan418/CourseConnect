@@ -1,0 +1,211 @@
+{
+    "domain":[
+     {
+      "SLNo.": 1,
+      "Course Code": "MLCU2000",
+      "Course Title": "DATA SCIENCE AND MACHINE LEARNING"
+     },
+     {
+      "SLNo.": 2,
+      "Course Code": "CUST2010",
+      "Course Title": "SOFTWARE TECHNOLOGIES"
+     },
+     {
+      "SLNo.": 3,
+      "Course Code": "ASCU2020",
+      "Course Title": "AERIAL SURVEYING AND REMOTE SENSING APPLICATIONS"
+     },
+     {
+      "SLNo.": 4,
+      "Course Code": "CTCU2030",
+      "Course Title": "CLOUD TECHNOLOGIES"
+     },
+     {
+      "SLNo.": 5,
+      "Course Code": "CSCU2040",
+      "Course Title": "CYBER SECURITY"
+     },
+     {
+      "SLNo.": 6,
+      "Course Code": "ESCU2050",
+      "Course Title": "EMBEDDED SYSTEM DESIGN"
+     },
+     {
+      "SLNo.": 7,
+      "Course Code": "ARCU2060",
+      "Course Title": "GAMING AND IMMERSIVE LEARNING (AR & VR)"
+     },
+     {
+      "SLNo.": 8,
+      "Course Code": "VLCU2070",
+      "Course Title": "CHIP DESIGN AND FABRICATION USING VLSI"
+     },
+     {
+      "SLNo.": 9,
+      "Course Code": "CSCU2080",
+      "Course Title": "COMMUNICATION SYSTEMS"
+     },
+     {
+      "SLNo.": 10,
+      "Course Code": "EGCU2090",
+      "Course Title": "OPERATION AND MAINTENANCE OF ELECTRICAL GRID SYSTEM & TRANSFORMERS"
+     },
+     {
+      "SLNo.": 11,
+      "Course Code": "LACU2100",
+      "Course Title": "INDUSTRIAL AUTOMATION"
+     },
+     {
+      "SLNo.": 12,
+      "Course Code": "CUCP2110",
+      "Course Title": "CONSTRUCTION PLANNING MONITORING AND PROJECT MANAGEMENT"
+     },
+     {
+      "SLNo.": 13,
+      "Course Code": "ARCH02251",
+      "Course Title": "ARCHITECTURAL AND STRUCTURAL DESIGN"
+     },
+     {
+      "SLNo.": 14,
+      "Course Code": "CDCU2130",
+      "Course Title": "COMPOSITE DESIGN AND  MANUFACTURING"
+     },
+     {
+      "SLNo.": 15,
+      "Course Code": "GMCU2140",
+      "Course Title": "GO TO MARKET-PRODUCT DEVELOPMENT"
+     },
+     {
+      "SLNo.": 16,
+      "Course Code": "CUTM2016",
+      "Course Title": "MANUFACTURING (CONVENTIONAL, CNC AND ADDITIVE)"
+     },
+     {
+      "SLNo.": 17,
+      "Course Code": "WICU2160",
+      "Course Title": "WELDING AND INSPECTION"
+     },
+     {
+      "SLNo.": 18,
+      "Course Code": "AECU2170",
+      "Course Title": "AUTOMOBILE ENGINEERING"
+     },
+     {
+      "SLNo.": 19,
+      "Course Code": "CFCU2180",
+      "Course Title": "COMPUTATIONAL FLUID DYNAMICS"
+     },
+     {
+      "SLNo.": 20,
+      "Course Code": "CURE219",
+      "Course Title": "RENEWABLE ENERGY APPLICATIONS (4-8-10)"
+     },
+     {
+      "SLNo.": 21,
+      "Course Code": "DACU2200",
+      "Course Title": "DATA ANALYTICS"
+     },
+     {
+      "SLNo.": 22,
+      "Course Code": "BACU2210",
+      "Course Title": "BUISNESS ANALYTICS"
+     },
+     {
+      "SLNo.": 23,
+      "Course Code": "FMCU2220",
+      "Course Title": "SMART FARM MACHINERY"
+     },
+     {
+      "SLNo.": 24,
+      "Course Code": "OFCU2230",
+      "Course Title": "ORGANIC FARMING"
+     },
+     {
+      "SLNo.": 25,
+      "Course Code": "DPCU2240",
+      "Course Title": "DAIRY PROCESSING AND DEVELOPMENT"
+     },
+     {
+      "SLNo.": 26,
+      "Course Code": "AQCU2250",
+      "Course Title": "INTENSIVE AQUACULTURE"
+     },
+     {
+      "SLNo.": 27,
+      "Course Code": "SPCU2260",
+      "Course Title": "SEED PRODUCTION USING MANUAL AND MOLECULAR METHODS"
+     },
+     {
+      "SLNo.": 28,
+      "Course Code": "GECU2270",
+      "Course Title": "GENETIC ENGINEERING & GENOMICS"
+     },
+     {
+      "SLNo.": 29,
+      "Course Code": "NUCU2280",
+      "Course Title": "NUTRACEUTICALS"
+     },
+     {
+      "SLNo.": 30,
+      "Course Code": "AGCU2290",
+      "Course Title": "SMART AGRICULTURE"
+     }
+    ],
+    "Table 2":[
+     {
+      "31": 32,
+      "PHCU2300": "PTCU2420",
+      "PROTECTED HORTICULTURE": "PLANT TISSUE CULTURE AND VEGETATIVE PROPAGATION"
+     },
+     {
+      "31": 33,
+      "PHCU2300": "FPCU2310",
+      "PROTECTED HORTICULTURE": "FOOD PROCESSING"
+     },
+     {
+      "31": 34,
+      "PHCU2300": "ABCU2320",
+      "PROTECTED HORTICULTURE": "AGRI BUISNESS MANAGEMENT"
+     },
+     {
+      "31": 35,
+      "PHCU2300": "FSCU2330",
+      "PROTECTED HORTICULTURE": "COMMODITY AND FOOD STORAGE"
+     },
+     {
+      "31": 36,
+      "PHCU2300": "SWCU2340",
+      "PROTECTED HORTICULTURE": "SOIL AND WATER CONSERVATION THROUGH WATERSHED"
+     },
+     {
+      "31": 37,
+      "PHCU2300": "FTCU2350",
+      "PROTECTED HORTICULTURE": "FISH PROCESSING TECHNOLOGY"
+     },
+     {
+      "31": 38,
+      "PHCU2300": "DFCU2360",
+      "PROTECTED HORTICULTURE": "CYBER SECURITY AND DIGITAL FORENSICS"
+     },
+     {
+      "31": 39,
+      "PHCU2300": "PCCU2370",
+      "PROTECTED HORTICULTURE": "PHARMACEUTICAL CHEMISTRY"
+     },
+     {
+      "31": 40,
+      "PHCU2300": "HCCU2380",
+      "PROTECTED HORTICULTURE": "HEALTH CARE ASSISTANCY"
+     },
+     {
+      "31": 41,
+      "PHCU2300": "MSCU2390",
+      "PROTECTED HORTICULTURE": "MANUFACTURING EXECUTION SYSTEM"
+     },
+     {
+      "31": 42,
+      "PHCU2300": "RHCU2410",
+      "PROTECTED HORTICULTURE": "RETAIL AND HOSPITALITY"
+     }
+    ]
+    }

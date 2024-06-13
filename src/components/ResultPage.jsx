@@ -1,4 +1,4 @@
-import React, { memo } from 'react';
+import React from 'react';
 
 const GradeRow = ({ grade ,index}) => (
   <tr className={index+1 % 2 === 0 ? 'bg-gray-50 dark:bg-gray-700' : 'dark:bg-gray-800'}>
@@ -12,7 +12,7 @@ const GradeRow = ({ grade ,index}) => (
 );
 
 
-const ResultPage = memo(({data,type}) => {
+const ResultPage = ({data,type}) => {
     let totalcredit = data.reduce((acc,curr) => acc + eval(curr.Credits),0);
     let cl = totalcredit;
     let cleared = data.filter((grade) =>{
@@ -95,7 +95,7 @@ const ResultPage = memo(({data,type}) => {
       </div>
     </div>
   );
-});
+};
 
 export default ResultPage;
 

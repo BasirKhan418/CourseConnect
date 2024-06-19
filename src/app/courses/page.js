@@ -1,54 +1,27 @@
-
-"use client"
-
-import { useState, useMemo } from "react"
-import { Input } from "@/components/ui/input"
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-
+"use client";
+import { useState, useMemo, useEffect } from "react";
+import { Input } from "@/components/ui/input";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import Course from "../../../public/Jsons/orcourse.json";
+import Scourse from "../../../public/Jsons/course.json";
 export default function Component() {
-  const [searchTerm, setSearchTerm] = useState("")
-  const [courses, setCourses] = useState([
-    {
-      id: 1,
-      title: "Introduction to Web Development",
-      description: "Learn the fundamentals of HTML, CSS, and JavaScript to build modern websites.",
-      image: "/prev.jpg",
-    },
-    {
-      id: 2,
-      title: "React.js Essentials",
-      description: "Dive into the world of React.js and learn how to build dynamic user interfaces.",
-      image: "/prev.jpg",
-    },
-    {
-      id: 3,
-      title: "Data Structures and Algorithms",
-      description: "Explore the core concepts of data structures and algorithms and how to apply them.",
-      image: "/placeholder.svg?height=200&width=300",
-    },
-    {
-      id: 4,
-      title: "Python for Data Analysis",
-      description: "Harness the power of Python to analyze and visualize data.",
-      image: "/placeholder.svg?height=200&width=300",
-    },
-    {
-      id: 5,
-      title: "Mastering Git and Version Control",
-      description: "Gain proficiency in Git, the industry-standard version control system.",
-      image: "/placeholder.svg?height=200&width=300",
-    },
-    {
-      id: 6,
-      title: "Responsive Web Design",
-      description: "Learn how to create websites that adapt seamlessly to different devices and screen sizes.",
-      image: "/placeholder.svg?height=200&width=300",
-    },
-  ])
+  const [searchTerm, setSearchTerm] = useState("");
+  const [courses, setCourses] = useState([]);
+  useEffect(() => {
+    setCourses(Course.data);
+  }, []);
   const filteredCourses = useMemo(() => {
-    return courses.filter((course) => course.title.toLowerCase().includes(searchTerm.toLowerCase()))
-  }, [courses, searchTerm])
+    return Course.data.filter((course) => {
+      return (
+        (course.title &&
+          course.title.toLowerCase().includes(searchTerm.toLowerCase())) ||
+        (course.code &&
+          course.code.toLowerCase().includes(searchTerm.toLowerCase()))
+      );
+    });
+  }, [courses, searchTerm]);
+
   return (
     <div className="container mx-auto px-4 md:px-6 py-8">
       <div className="mb-8 flex items-center justify-between">
@@ -65,9 +38,9 @@ export default function Component() {
         </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-        {filteredCourses.map((course) => (
+        {filteredCourses.slice(0, 10).map((course,index) => (
           <Link
-            key={course.id}
+            key={index}
             href="#"
             className="bg-white dark:bg-gray-950 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow"
             prefetch={false}
@@ -81,20 +54,73 @@ export default function Component() {
             />
             <div className="p-4">
               <h3 className="text-lg font-semibold mb-2">{course.title}</h3>
-              <p className="text-gray-500 dark:text-gray-400 mb-4">{course.description}</p>
-              <Button variant="" size="sm">
-              View Now
+              <div className="course-description bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md mb-4">
+                <p className="text-xs font-semibold text-gray-700 dark:text-gray-300 mb-2">
+                  <span className="text-gray-500 dark:text-gray-400">
+                    Programme:{" "}
+                  </span>
+                  {course.Programme}
+                </p>
+                <p className="text-xs font-semibold text-gray-700 dark:text-gray-300 mb-2">
+                  <span className="text-gray-500 dark:text-gray-400">
+                    Stream/Branch:{" "}
+                  </span>
+                  {course["Stream/Branch"]}
+                </p>
+                <p className="text-xs font-semibold text-gray-700 dark:text-gray-300 mb-2">
+                  <span className="text-gray-500 dark:text-gray-400">
+                    Basket:{" "}
+                  </span>
+                  {course.Basket}
+                </p>
+                <p className="text-xs font-semibold text-gray-700 dark:text-gray-300 mb-2">
+                  <span className="text-gray-500 dark:text-gray-400">
+                    Course Type:{" "}
+                  </span>
+                  {course.coursetype}
+                </p>
+                <p className="text-xs font-semibold text-gray-700 dark:text-gray-300 mb-2">
+                  <span className="text-gray-500 dark:text-gray-400">
+                    Code:{" "}
+                  </span>
+                  {course.code}
+                </p>
+                <p className="text-xs font-semibold text-gray-700 dark:text-gray-300 mb-2">
+                  <span className="text-gray-500 dark:text-gray-400">
+                    Credit:{" "}
+                  </span>
+                  {course.Credit}
+                </p>
+                <p className="text-xs font-semibold text-gray-700 dark:text-gray-300">
+                  <span className="text-gray-500 dark:text-gray-400">
+                    Type (T+P+Pj):{" "}
+                  </span>
+                  {course["Type(T+P+Pj)"]}
+                </p>
+              </div>
+              <Button variant="" size="sm" onClick={()=>{
+                const tt = course.title.split(" ").join("-").toLowerCase();
+                const scours = Scourse.filter((c) => c.loc.includes(tt)||c.loc.includes(course.title));
+                console.log(scours)
+                if(scours.length>0){
+                  window.open(scours[0].loc, "_blank")
+                  console.log(scours)
+                }
+              else{
+                window.open(`https://course.cutm.ac.in/courses/${tt}`, "_blank")
+              }
+              }}>
+                View Now
               </Button>
               <Button variant="outline" size="sm" className="mx-4">
-               Enroll
+                Enroll
               </Button>
-              
             </div>
           </Link>
         ))}
       </div>
     </div>
-  )
+  );
 }
 
 function SearchIcon(props) {
@@ -114,5 +140,5 @@ function SearchIcon(props) {
       <circle cx="11" cy="11" r="8" />
       <path d="m21 21-4.3-4.3" />
     </svg>
-  )
+  );
 }

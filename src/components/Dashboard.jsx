@@ -135,17 +135,17 @@ export function Dashboard({children}) {
               </Button>
             </SheetTrigger>
             <SheetContent side="left" className="flex flex-col">
-              <nav className="grid gap-2 text-lg font-medium">
+            <nav className="grid items-start px-2 text-sm font-medium lg:px-4">
               <Link
                 href="/"
-                className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary"
+                className={`flex items-center gap-3 rounded-lg px-3 py-2 ${pathname=="/"?"bg-muted text-primary":"text-muted-foreground"} transition-all hover:text-primary`}
               >
                 <Home className="h-4 w-4" />
                 Home
               </Link>
               <Link
                 href="/courses"
-                className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary"
+                className={`flex items-center gap-3 rounded-lg px-3 py-2 ${pathname=="/courses"?"bg-muted text-primary":"text-muted-foreground"} transition-all hover:text-primary`}
               >
                
                <BookMarked className="h-4 w-4"/>
@@ -155,49 +155,49 @@ export function Dashboard({children}) {
                 </Badge>
               </Link>
               <Link
-                href="#"
-                className="flex items-center gap-3 rounded-lg bg-muted px-3 py-2 text-primary transition-all hover:text-primary"
+                href="/pdf"
+                className={`flex items-center gap-3 rounded-lg px-3 py-2 ${pathname=="/pdf"?"bg-muted text-primary":"text-muted-foreground"} transition-all hover:text-primary`}
               >
                 <FaFilePdf className="h-4 w-4"/>
                 Pdf's{" "}
               </Link>
               <Link
                 href="/result"
-                className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary"
+                className={`flex items-center gap-3 rounded-lg px-3 py-2 ${pathname=="/result"?"bg-muted text-primary":"text-muted-foreground"} transition-all hover:text-primary`}
               >
                <GrScorecard className="h-4 w-4"/>
                 Results
               </Link>
               <Link
-                href="#"
-                className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary"
+                href="/roadmaps"
+                className={`flex items-center gap-3 rounded-lg px-3 py-2 ${pathname=="/roadmaps"?"bg-muted text-primary":"text-muted-foreground"} transition-all hover:text-primary`}
               >
                 <LineChart className="h-4 w-4" />
                 RoadMaps
               </Link>
               <Link
-                href="#"
-                className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary"
+                href="/asq"
+                className={`flex items-center gap-3 rounded-lg px-3 py-2 ${pathname=="/asq"?"bg-muted text-primary":"text-muted-foreground"} transition-all hover:text-primary`}
               >
                <School  className="h-4 w-4"/>
                 AssignMent & Questions
               </Link>
-              </nav>
+              
+            </nav>
               <div className="mt-auto">
-                <Card>
-                  <CardHeader>
-                    <CardTitle>Upgrade to Pro</CardTitle>
-                    <CardDescription>
-                      Unlock all features and get unlimited access to our
-                      support team.
-                    </CardDescription>
-                  </CardHeader>
-                  <CardContent>
-                    <Button size="sm" className="w-full">
-                      Upgrade
-                    </Button>
-                  </CardContent>
-                </Card>
+              <Card x-chunk="dashboard-02-chunk-0">
+              <CardHeader className="p-2 pt-0 md:p-4">
+                <CardTitle>Free & Fast Acess .</CardTitle>
+                <CardDescription>
+                  Get free and fast access to cutm course ware and easily access all study Materials Here.
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="p-2 pt-0 md:p-4 md:pt-0">
+              <Button size="sm" className="w-full">
+                  Browse Courses
+                </Button>
+              </CardContent>
+            </Card>
               </div>
             </SheetContent>
           </Sheet>

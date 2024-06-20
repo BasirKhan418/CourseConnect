@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import Course from "../../../public/Jsons/orcourse.json";
 import Scourse from "../../../public/Jsons/course.json";
+import linkdata from "../../../public/Jsons/links.json";
 export default function Component() {
   const [searchTerm, setSearchTerm] = useState("");
   const [courses, setCourses] = useState([]);
@@ -100,14 +101,21 @@ export default function Component() {
               </div>
               <Button variant="" size="sm" onClick={()=>{
                 const tt = course.title.split(" ").join("-").toLowerCase();
-                const scours = Scourse.filter((c) => c.loc.includes(tt)||c.loc.includes(course.title));
+                const scours = Scourse.filter((c) => c.loc.includes(tt)||c.loc.includes(course.title.toLowerCase()));
                 console.log(scours)
                 if(scours.length>0){
                   window.open(scours[0].loc, "_blank")
                   console.log(scours)
                 }
               else{
-                window.open(`https://course.cutm.ac.in/courses/${tt}`, "_blank")
+                // window.open(`https://course.cutm.ac.in/courses/${tt}`, "_blank")
+                let a  = linkdata.filter((c)=>{return c.includes(tt)||c.includes(course.title.toLowerCase())})
+                if(a.length>0){
+                  window.open(a[0], "_blank")
+                }
+                else{
+                  window.open(`https://course.cutm.ac.in/courses/${tt}`, "_blank");
+                }
               }
               }}>
                 View Now

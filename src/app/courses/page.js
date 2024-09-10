@@ -7,6 +7,7 @@ import Course from "../../../public/Jsons/orcourse.json";
 import Scourse from "../../../public/Jsons/course.json";
 import linkdata from "../../../public/Jsons/links.json";
 export default function Component() {
+  //starts from here
   const [searchTerm, setSearchTerm] = useState("");
   const [courses, setCourses] = useState([]);
   useEffect(() => {

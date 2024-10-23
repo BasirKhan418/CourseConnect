@@ -9,7 +9,7 @@ const Nofound = () => {
       </div>
       
       <Button size="lg">
-    Go Back To Home
+    Go Back home
 </Button>
     </div>
   )
